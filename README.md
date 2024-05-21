@@ -1,5 +1,3 @@
-Here's the revised README with corrected grammar and adjusted image placement:
-
 ---
 
 # Interfacing MQ135 Gas Sensor with Arduino
@@ -26,6 +24,7 @@ This project demonstrates how to interface the MQ135 Gas Sensor with Arduino to 
   - A0 to A0 on Arduino Nano
 
 ![Pinout](https://github.com/bassslapper3390/Measuring-Concentration--Of-CO2-in-Air-using-Arduino-nano-and-MQ-135-Sensor/assets/75876257/a8241749-35c6-43bd-8a16-4e8729917369)
+If you are wondering why the pinouts are different in the photo its because the photo uses diffent display, i have used 4 pin oled display and have given the pinouts accordingly, refer those.
 
 ## Installation
 1. Connect the components according to the pinout provided.
@@ -39,5 +38,3 @@ This project demonstrates how to interface the MQ135 Gas Sensor with Arduino to 
 Integrate the system with home automation platforms like Home Assistant to monitor CO2 levels in closed rooms. Automatically trigger actions such as opening windows or activating ventilation systems when CO2 levels exceed a predefined threshold. (Will probably use an ESP32)
 
 ---
-
-The README is now more polished and includes the images in a more presentable format.
