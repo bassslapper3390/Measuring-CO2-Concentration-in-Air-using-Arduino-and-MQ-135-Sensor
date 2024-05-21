@@ -72,7 +72,7 @@ void loop() {
   display.display();
 
   // Check if ppm exceeds 650 and flash warning
-  if (ppm > 2000) {
+  if (ppm > 750) {
     for (int i = 0; i < 3; i++) { // Flash 3 times
       display.clearDisplay();
       display.drawRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, WHITE);
