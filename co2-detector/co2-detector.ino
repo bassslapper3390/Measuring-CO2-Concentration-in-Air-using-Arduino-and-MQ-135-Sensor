@@ -1,9 +1,3 @@
-/*
- * Interfacing MQ135 Gas Sensor with Arduino
- * Author: Ashish
- * Website: www.circuitdigest.com
- * Date: 11-11-2020
- */
 #include "MQ135.h"
 #include <Wire.h>
 #include <Adafruit_GFX.h>
