@@ -37,4 +37,7 @@ If you are wondering why the pinouts are different in the photo its because the 
 ## Future Scope
 Integrate the system with home automation platforms like Home Assistant to monitor CO2 levels in closed rooms. Automatically trigger actions such as opening windows or activating ventilation systems when CO2 levels exceed a predefined threshold. (Will probably use an ESP32)
 
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](/LICENSE) file for details.
+
 ---
