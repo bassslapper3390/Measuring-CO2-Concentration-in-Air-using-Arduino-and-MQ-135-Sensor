@@ -28,8 +28,12 @@ If you are wondering why the pinouts are different in the photo its because the 
 
 ## Installation
 1. Connect the components according to the pinout provided.
-2. Upload the provided [Arduino code](/co2-detector/co2-detector.ino) to your Arduino Nano board.
-3. Open the serial monitor or connect display to view the CO2 readings and warnings when CO2 levels are high.
+2. Install the required libraries:
+   - **Adafruit GFX Library**: [Download from Adafruit](https://github.com/adafruit/Adafruit-GFX-Library)
+   - **Adafruit SSD1306 Library**: [Download from Adafruit](https://github.com/adafruit/Adafruit_SSD1306)
+   - **MQ135 Library**: [Download from Arduino Library Manager](https://www.arduinolibraries.info/libraries/mq135)
+3. Upload the provided [Arduino code](/co2-detector/co2-detector.ino) to your Arduino Nano board.
+4. Open the serial monitor or connect display to view the CO2 readings and warnings when CO2 levels are high.
 
 ![OLED Display](https://github.com/bassslapper3390/Measuring-Concentration--Of-CO2-in-Air-using-Arduino-nano-and-MQ-135-Sensor/assets/75876257/7ba68326-7083-43fa-a41d-b6000bd8105f)
 ![MQ135 Sensor](https://github.com/bassslapper3390/Measuring-Concentration--Of-CO2-in-Air-using-Arduino-nano-and-MQ-135-Sensor/assets/75876257/8aeac45c-619d-4e6c-84d4-50bfdc007083)
