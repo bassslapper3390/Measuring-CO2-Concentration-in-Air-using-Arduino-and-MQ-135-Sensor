@@ -28,7 +28,7 @@ If you are wondering why the pinouts are different in the photo its because the 
 
 ## Installation
 1. Connect the components according to the pinout provided.
-2. Upload the provided [Arduino code](/code/co2-detector.ino) to your Arduino Nano board.
+2. Upload the provided [Arduino code](/co2-detector/co2-detector.ino) to your Arduino Nano board.
 3. Open the serial monitor or connect display to view the CO2 readings and warnings when CO2 levels are high.
 
 ![OLED Display](https://github.com/bassslapper3390/Measuring-Concentration--Of-CO2-in-Air-using-Arduino-nano-and-MQ-135-Sensor/assets/75876257/7ba68326-7083-43fa-a41d-b6000bd8105f)
